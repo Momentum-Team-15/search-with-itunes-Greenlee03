@@ -3,9 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="main.js" defer></script>
   <title>Music Search</title>
+  <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+  <!-- <div id="audio">
+    <audio src="" controls>
+      <source>
+    </audio>
+  </div> -->
+  <div>this is where i want the song bar</div>
+  <form method="post" action="/" id ="form">
+    <div class="input-field">
+      <label for="searching"></label>
+      <input type="text" name="searchBar" id="searchBar"
+      placeholder="Search for Artists"
+      required />
+    </div>
+    <div class="input-field">
+      <input type="submit" value="Submit" id="searchBtn"/>
+    </div>
+  </form>
+  <div id="allSongs">
+      <img src="" alt="">
+      <h1>Song Name</h1>
+      <p>Artist Name</p>
+  </div>
+  <script src="main.js"></script>
 </body>
 </html>
